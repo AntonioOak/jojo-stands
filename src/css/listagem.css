@@ -1,0 +1,36 @@
+.listagem {
+    max-width: 250px;
+}
+
+.listagem .stand {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    background-color: #6b727a;
+    color: #ffffff;
+    padding: 0 5px;
+    cursor: pointer;
+    border-top-left-radius: 35px;
+    border-bottom-left-radius: 35px;
+    min-height: 70px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: 0.15s ease-in-out;
+}
+
+.listagem .stand:hover {
+    transform: scale(1.05);
+}
+
+.listagem .stand img {
+    width: 25%;
+    border-radius: 50%;
+}
+
+.listagem .stand span {
+    padding-right: 20px;
+}
+
+.listagem .stand.ativo {
+    background-color: #fa6668;
+}
